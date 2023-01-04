@@ -1,6 +1,6 @@
 <template>
   <div class="about-txt" v-if="breakpoints.desktop.matches">
-    <img src="src/assets/me.png" alt="Joana Oliveira Designer" id="me" />
+    <img src="/src/assets/me.png" alt="Joana Oliveira Designer" id="me" />
     <p>
       Hello!<br /><br />
       I’m <span id="about-bold"> Joana Maria</span>, I was born in Braga,
@@ -118,7 +118,7 @@
   <!-- Mobile -->
   <div class="about-txt-mbl" v-if="breakpoints.mobile.matches">
     <div id="me-det">
-      <img src="src/assets/me.png" alt="Joana Oliveira Designer" id="me-mbl" />
+      <img src="/src/assets/me.png" alt="Joana Oliveira Designer" id="me-mbl" />
       <div
         id="contacts-mbl"
         class="bold-txt-mbl"
