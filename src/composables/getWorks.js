@@ -15,7 +15,7 @@ const getWorks = () => {
 
       //   works.value = await data.json();
 
-      await fetch("/data/works.json")
+      await fetch("/src/data/works.json")
         .then(function (response) {
           responseClone = response.clone(); // 2
           return response.json();
