@@ -3,17 +3,6 @@ import { ref } from "vue";
 const getWork = (id) => {
   const work = ref(0);
   const error = ref(null);
-  const names = [
-    "",
-    "creative-emotions",
-    "phototyper",
-    "a-small-showcase-of-graphic-design-and-world-history",
-    "cuidar-de-ti",
-    "the-queens-gambit-project",
-    "nei",
-    "develop-way-you-think-as-a-designer",
-    "grokem-rehany-zejuh",
-  ];
 
   const load = async () => {
     try {
@@ -26,7 +15,7 @@ const getWork = (id) => {
       //   work.value = await data.json();
       //   console.log(work.value)
 
-      fetch("/data/works.json")
+      let data = await fetch("/data/works.json")
         .then((res) => res.json())
         .then((data2) => {
           console.log("locally: ");

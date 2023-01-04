@@ -42,9 +42,8 @@ import WorksIndexMbl from "../components/WorksIndex-Mbl.vue";
 import WorkDetailsMbl from "../components/WorkDetails-Mbl.vue";
 
 import getWorks from "../composables/getWorks.js";
-import getWork from "../composables/getWork";
 import { useRoute } from "vue-router";
-import { watchEffect, watch, ref } from "vue";
+import { watch, ref } from "vue";
 import useBreakpoints from "vue-next-breakpoints";
 
 export default {

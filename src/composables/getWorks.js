@@ -3,7 +3,7 @@ import { ref } from "vue";
 const getWorks = () => {
   const works = ref([]);
   const error = ref(null);
-
+  console.log("NOVO COMMIT");
   const load = async () => {
     try {
      //   let data = await fetch("http://localhost:3000/works");
@@ -14,7 +14,7 @@ const getWorks = () => {
 
    //   works.value = await data.json();
 
-      fetch("/data/works.json")
+   let data = await fetch("/data/works.json")
         .then((res) => res.json())
         .then((data2) => {
           console.log("locally: ");
