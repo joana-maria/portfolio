@@ -9,7 +9,7 @@
     <WorksIndex :works="works" />
   </div>
   <AllWorks :key="0" v-if="breakpoints.desktop.matches" />
-  #4
+  #6
   <!-- mobile -->
   <div id="within-grid" v-if="breakpoints.mobile.matches">
     <div class="about-txt-mbl" v-if="breakpoints.mobile.matches">
