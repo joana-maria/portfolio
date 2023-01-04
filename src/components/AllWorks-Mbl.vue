@@ -21,7 +21,7 @@
     <router-link :to="{ name: 'works', params: { id: 6 } }">
       <img class="img-bckg" src="/src/assets/allworks/6.png" />
     </router-link>
-    <router-link :to="{ name: 'works', params: { id: 4 } }" style="margin-bottom: 50px;">
+    <router-link :to="{ name: 'works', params: { id: 4 } }">
       <img class="img-bckg" src="/src/assets/allworks/8.gif" />
     </router-link>
   </div>

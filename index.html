@@ -49,7 +49,7 @@
   #app {
     display: grid;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     margin: 0;
     padding: 20px;
     max-width: 100%;
@@ -57,13 +57,14 @@
     grid-template-rows: repeat(2, 1fr);
     column-gap: 30px;
     color: #000000;
+    overflow: hidden;
   }
 
   @media only screen and (max-width: 800px) {
     #app {
       display: grid;
       width: 100%;
-      height: 100vh;
+      height: 100%;
       margin: 0;
       padding: 0px;
       max-width: 100%;
@@ -74,6 +75,7 @@
       color: #000000;
       z-index: 1;
       position: absolute;
+      overflow: hidden;
     }
   }
 </style>
