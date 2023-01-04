@@ -32,18 +32,18 @@ const getWork = (id) => {
       //    });
       //   });
 
-        await fetch("/data/works.json")
+      await fetch("/src/assets/data/works.json")
         .then(function (response) {
           responseClone = response.clone(); // 2
           return response.json();
         })
         .then(
           function (data) {
-               data.works.forEach(workClicked => {
-                if(workClicked.id === id){
-                  work.value = workClicked;
-                }
-              });
+            data.works.forEach((workClicked) => {
+              if (workClicked.id === id) {
+                work.value = workClicked;
+              }
+            });
           },
           function (rejectionReason) {
             // 3
@@ -62,8 +62,6 @@ const getWork = (id) => {
               });
           }
         );
-
-
     } catch (err) {
       error.value = err.message;
       console.log(error.value);

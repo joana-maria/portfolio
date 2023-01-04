@@ -4,7 +4,6 @@ const getWorks = () => {
   const works = ref([]);
   const error = ref(null);
   let responseClone = ref(null);
-  console.log("NOVO COMMIT");
   const load = async () => {
     try {
       //   let data = await fetch("http://localhost:3000/works");
@@ -15,7 +14,7 @@ const getWorks = () => {
 
       //   works.value = await data.json();
 
-      await fetch("/data/works.json")
+      await fetch("/src/assets/data/works.json")
         .then(function (response) {
           responseClone = response.clone(); // 2
           return response.json();
