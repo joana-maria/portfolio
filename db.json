@@ -1,0 +1,131 @@
+{
+    "works":[
+        {
+            "id": 1,
+            "year": 22,
+            "title": "Creative Emotions",
+            "cathegory": "Web Design and Dev, Creative Coding.",
+            "link": "<a href=\"https://creativeemotions.dei.uc.pt/\" target=\"_blank\" style=\"color: #a1a1a1;\">creativeemotions.dei.uc.pt</a>",
+            "body": "Development of a website that allows easy access to data from ongoing research at CDV Lab./CISUC—CMS on the relationship between music, image and emotions. The first steps required data analysis, leading to a prototype stage where we began iterating with several options for the platform. <br><br> Ultimately, we opted for a more minimalist and neutral approach for the webpage. We also added a demonstration page where the user can see visuals dependent on the user's emotions created with research data. The user's emotions are live captured using a Javascript Face API which is later connected to the Image values of the dataset (JSON). <br><br> Each visual has it’s own rules using the Complexity, Form and Hue values of the dataset. Each emotion has 13 forms with different visual weights and colors, which are later mapped into the video capture grayscale values. They  were manualy created and then applied to said rules and values, allowing for a abstract identification of the subject.",
+            "context": "Academic Research Project CISUC — FCTUC",
+            "professors": "",
+            "advised": "",
+            "role": "Ideation, design and implementation",
+            "colaboration": "Ana Claudia, Daniel Lopes",
+            "date": "6 months",
+            "tag": "web design"
+        },
+        {
+            "id": 2,
+            "year": 22,
+            "title": "Phototyper",
+            "cathegory": "Web Design and Dev, Creative Coding.",
+            "link": "<a href=\"https://phototyper.dei.uc.pt/\"target=\"_blank\" style=\"color: #a1a1a1;\">phototyper.dei.uc.pt</a>",
+            "body": "Phototyper was a result of the practical component of my dissertation which revolved around developing a web-based system capable of creating letterforms filled and texturised with other mediums besides colour such as images.<br><br> This system required the creation of an complex algorithm able to read, draw and fill/texturise the letter base structure (manually drawn by me) with various textures or filling techniques that use cropped sections from a source image <a style=\"text-decoration: underline; color: #a1a1a1;\" href=\"https://estudogeral.sib.uc.pt/handle/10316/102163\" target=\"_blank\">(see dissertation)</a>.<br><br> The system accepts different parameters, which impact the visual appearance of each letterform. The system accepts different parameters, which impact the visual appearance of each letterform. It can apply specific parameters and specifications to the individual components of the selected skeleton. Further, this method served as the base for the user-focused system.",
+            "context": "Dissertation<br>MsDM — FCTUC",
+            "professors": "",
+            "advised": "Tiago Martins<br>João Bicker",
+            "role": "",
+            "colaboration": "",
+            "date": "12 months",
+            "tag": "creative code"
+            
+        },
+        {
+            "id": 3,
+            "year": 21,
+            "title": "A Small Showcase of Graphic Design and World History",
+            "cathegory": "Editorial, Print.",
+            "link": "",
+            "body": "The primary concept of this project was to elevate the visual culture of Design as another essential category in general culture. By pairing the Design discipline with World History events, we allowed the public to better compreehend its evolution.<br><br>The developed object is a set of cards, a book (10x10) and an acrylic box. Each card had an image of the Design artefact and, in the back, a historical contextualisation of its temporal instance. The book contains tables of work of all images, as well as all the periods and their respective cards. When the backs of the cards are aligned, they create a mosaic, representing the time to which they belong.<br><br>After extensive research, it was possible to divide the project into thirteen periods. In total, ninety-seven design artefacts and hundreds of images related to the historical context were collected.",
+            "context": "Visual Narative<br>MsDM — FCTUC",
+            "professors": "Ana Boavida",
+            "advised": "",
+            "role": "Ideation and design",
+            "colaboration": "",
+            "date": "4 months",
+            "tag": "print"
+            
+        },
+        {
+            "id": 4,
+            "year": 21,
+            "title": "Cuidar de Ti — Que Cuidas de Nós",
+            "cathegory": "UI/UX design, service design.",
+            "link": "",
+            "body": "<i>Cuidar de ti</i> is the final project of our Service Design subject. It required both desk and field research. Progress was made with the help of journey maps, system maps, value proposition canvas, and a service blueprint, among others.<br><br>The service we created tries to assist healthcare professionals who are burnt out or under stress. The service consists of an app and two physical rooms. The project was developed with three designers, and my main responsibility was to design the high-fidelity prototype of the app <a style=\"text-decoration: underline; color: #a1a1a1;\" href=\"https://www.figma.com/file/vgY8HhmZY1cRTnW1OdIavw/DS-App?node-id=0%3A1\" target=\"_blank\">(see prototype here)</a> however, all members add input at every stage of the project.<br><br>The app's goal is to help health professionals by connecting them with others who have/had similar experiences, and to provide them with moments of relaxation during the day. The app grants access to the rooms, respectively the Relax Room and the Exercise Room, to healthcare practitioners. The main goal of these rooms is to provide a space for health professionals to rest or exercise to relieve stress from their jobs.",
+            "context": "Service Design<br>MsDM — FCTUC",
+            "professors": "Paula Alexandra",
+            "advised": "",
+            "role": "UI/UX of App",
+            "colaboration": "Petra Grego<br>Sofia Torres",
+            "date": "14 weeks",
+            "tag": "ui/ux"
+            
+        },
+        {
+            "id": 5,
+            "year": 21,
+            "title": "The Queen's Gambit project",
+            "cathegory": "Generative Design, Graphic design.",
+            "link": "",
+            "body": "This project was developed for a Generative Design subject in my Master’s. I used generative techniques to produce graphic artefacts for the series The Queen’s Gambit. The concept for the project arose from the serie's credits created by Saskia Marka, who used work by David White developed in Processing as a basis.<br><br>Thus, I developed merchandising for the film, using the abstraction of the chessboard for its elementary shapes, the square. By using this form, I developed elements that also explore the randomness and psychedelic component of the serie, as well as its colors.",
+            "context": "Generative Design<br>MsDM — FCTUC",
+            "professors": "",
+            "advised": "",
+            "role": "Ideation, design and implementation",
+            "colaboration": "Tiago Martins<br>Sérgio Rebelo",
+            "date": "",
+            "tag": "generative design"
+            
+        },
+        {
+            "id": 6,
+            "year": 21,
+            "title": "Núcleo Estudantes Informática",
+            "cathegory": "Visual Identity, Branding, Graphic Design.",
+            "link": "",
+            "body": "<i>Núcleo de Estudantes de Informática</i>, is a student association run by and for all students in the Department of Informatics Engineering located in the Faculty of Sciences and Technology of the University of Coimbra.<br><br>As an Image department collaborator at Núcleo de Estudantes de Informática, I designed the new visual identity for its 25th anniversary. So, I created a new logo (commemorative and standard) and a graphic identity. Several templates were designed to fulfil the content needs of every social media account, and each template had in mind the type of content normally created and shared.",
+            "context": "NEI/AAC",
+            "professors": "",
+            "advised": "",
+            "role": "Ideation, design and branding.",
+            "colaboration": "",
+            "date": "4 weeks",
+            "tag": "identity"
+            
+        },
+        {
+            "id": 7,
+            "year": 20,
+            "title": "Develop the way you this as a Designer",
+            "cathegory": "Editorial, Web Design and Development.",
+            "link": "",
+            "body": "This project was created by three designers who strongly believe in design as a problem-solving tool. As Master's Designer students, we created work we loved and believed in. This project was born in our Communication Design subject at the Faculty of Science and Technology, University of Coimbra.<br><br>Nowadays, traditional design education models focus primarily on form-giving. More attention should be given to teaching students about how design functions in broader contexts, why it is culturally relevant, and how and why it now has the widespread economic, political, environmental and technological impacts that it does.<br><br>This project allows users to develop their thinking as designers. It provides various references (videos, podcasts, books, magazines, articles and webpages) for each of the five intelligences explored through a deck of cards and a website.",
+            "context": "Communication Design<br>MsDM — FCTUC",
+            "professors": "Nuno Coelho<br>Tiago Martins",
+            "advised": "",
+            "role": "",
+            "colaboration": "Petra Grego<br>Sofia Torres",
+            "date": "10 weeks",
+            "tag": "project"
+            
+        },
+        {
+            "id": 8,
+            "year": 20,
+            "title": "Grokem, Rehany and Zejuh",
+            "cathegory": "Typography, Graphic design.",
+            "link": "",
+            "body": "Typefaces created in an academic environment for the Advanced Typography subject. We were encouraged to explore the dynamics nd infinite possibilities of modular type. These typefaces were designed with modules from various letter forms found in the streets of Coimbra, Portugal.<br><br>I developed a series of posters and visual compositions with all three typefaces created, showcasing their visual potential <a style=\"text-decoration: underline; color: #a1a1a1;\" href=\"https://www.behance.net/gallery/112773923/Modular-Typefaces\" target=\"_blank\">(see complete sets)</a>.",
+            "context": "Advanced Typography<br>MsDM — FCTUC",
+            "professors": "Artur Rebelo",
+            "advised": "",
+            "role": "Ideation, design and implementation",
+            "colaboration": "",
+            "date": "10 weeks",
+            "tag": "typography"
+            
+        }
+    ]
+}
