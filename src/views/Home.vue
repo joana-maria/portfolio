@@ -118,7 +118,7 @@ export default {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  margin-top: 6%;
+  margin-top: 12%;
   height: 90px;
 }
 
@@ -137,10 +137,9 @@ export default {
 #within-grid {
   padding: 20px;
   position: absolute;
-  width: 100%;
   display: grid;
   width: 100%;
-  height: 94%;
+  height: 100%;
   margin: 0;
   max-width: 100%;
   grid-template-columns: repeat(2, 1fr);
@@ -150,7 +149,7 @@ export default {
   color: #000000;
   z-index: 1;
   position: absolute;
-  top: 40px;
+  /* top: 40px; */
   overflow: hidden;
 }
 
