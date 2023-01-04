@@ -32,7 +32,7 @@ const getWork = (id) => {
       //    });
       //   });
 
-        await fetch("/src/data/works.json")
+        await fetch("/data/works.json")
         .then(function (response) {
           responseClone = response.clone(); // 2
           return response.json();
