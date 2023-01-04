@@ -32,7 +32,7 @@ const getWork = (id) => {
       //    });
       //   });
 
-      await fetch("src/assets/data/works.json")
+      await fetch("https://joana-maria.github.io/data/works.json")
         .then(function (response) {
           responseClone = response.clone(); // 2
           return response.json();
