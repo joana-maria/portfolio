@@ -15,21 +15,56 @@ const getWork = (id) => {
       //   work.value = await data.json();
       //   console.log(work.value)
 
-      let data = await fetch("/data/works.json")
-        .then((res) => res.json())
-        .then((data2) => {
-          console.log("locally: ");
-          console.log(data2);
-         // works.value = data2.works;
+      // fetch("/data/works.json")
+      //   .then((res) => res.json())
+      //   .then((data2) => {
+      //     console.log("locally: ");
+      //     console.log(data2);
+      //    // works.value = data2.works;
 
-         data2.works.forEach(workClicked => {
-          if(workClicked.id === id){
-            console.log("work ")
-            console.log(workClicked)
-            work.value = workClicked;
+      //    data2.works.forEach(workClicked => {
+      //     if(workClicked.id === id){
+      //       console.log("work ")
+      //       console.log(workClicked)
+      //       work.value = workClicked;
+      //     }
+      //    });
+      //   });
+
+        await fetch("/data/works.json")
+        .then(function (response) {
+          responseClone = response.clone(); // 2
+          return response.json();
+        })
+        .then(
+          function (data) {
+               data.works.forEach(workClicked => {
+                if(workClicked.id === id){
+                  console.log("work ")
+                  console.log(workClicked)
+                  work.value = workClicked;
+                }
+              });
+          },
+          function (rejectionReason) {
+            // 3
+            console.log(
+              "Error parsing JSON from response:",
+              rejectionReason,
+              responseClone
+            ); // 4
+            responseClone
+              .text() // 5
+              .then(function (bodyText) {
+                console.log(
+                  "Received the following instead of valid JSON:",
+                  bodyText
+                ); // 6
+              });
           }
-         });
-        });
+        );
+
+        
     } catch (err) {
       error.value = err.message;
       console.log(error.value);
