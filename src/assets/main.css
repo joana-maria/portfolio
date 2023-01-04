@@ -1,0 +1,143 @@
+@import "./base.css";
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  /*color: hsla(160, 100%, 37%, 1);*/
+  color: #000000;
+  transition: 0.4s;
+}
+
+body.home {
+  background-color: #F8F8f8;
+}
+
+body.about {
+  background-image: url('/src/assets/about-bckg.png');
+  background-size:cover;
+  background-color: #F0F0F0;
+}
+
+/*
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}*/
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
+
+@font-face {
+  font-family: "rotablack";
+  src: url("/Fonts/Rota/rota-black-webfont.woff2") format("woff2"),
+    url("/Fonts/Rota/rota-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rotablack_italic";
+  src: url("/Fonts/Rota/rota-blackitalic-webfont.woff2") format("woff2"),
+    url("/Fonts/Rota/rota-blackitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rotabold";
+  src: url("/Fonts/Rota/rota-bold-webfont.woff2") format("woff2"),
+    url("/Fonts/Rota/rota-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rotabold_italic";
+  src: url("/Fonts/Rota/rota-bolditalic-webfont.woff2") format("woff2"),
+    url("Fonts/Rota/rota-bolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rotaitalic";
+  src: url("/Fonts/Rota/rota-italic-webfont.woff2") format("woff2"),
+    url("/Fonts/Rota/rota-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rotamedium";
+  src: url("/Fonts/Rota/rota-medium-webfont.woff2") format("woff2"),
+    url("/Fonts/Rota/rota-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rotamedium_italic";
+  src: url("/Fonts/Rota/rota-mediumitalic-webfont.woff2") format("woff2"),
+    url("/Fonts/Rota/rota-mediumitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rotaregular";
+  src: url("/Fonts/Rota/rota-regular-webfont.woff2") format("woff2"),
+    url("/Fonts/Rota/rota-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rotablack_italic";
+  src: url("/Fonts/Rota/rota-blackitalic-webfont.woff2") format("woff2"),
+    url("/Fonts/Rota/rota-blackitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rotablack";
+  src: url("/Fonts/Rota/rota-black-webfont.woff2") format("woff2"),
+    url("/Fonts/Rota/rota-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rotabold";
+  src: url("/Fonts/Rota/rota-bold-webfont.woff2") format("woff2"),
+    url("/Fonts/Rota/rota-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rotabold_italic";
+  src: url("/Fonts/Rota/rota-bolditalic-webfont.woff2") format("woff2"),
+    url("/Fonts/Rota/rota-bolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
