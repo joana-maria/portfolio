@@ -3,6 +3,7 @@ import { ref } from "vue";
 const getWork = (id) => {
   const work = ref(0);
   const error = ref(null);
+  let responseClone = ref(null);
 
   const load = async () => {
     try {
@@ -40,8 +41,6 @@ const getWork = (id) => {
           function (data) {
                data.works.forEach(workClicked => {
                 if(workClicked.id === id){
-                  console.log("work ")
-                  console.log(workClicked)
                   work.value = workClicked;
                 }
               });
@@ -64,7 +63,7 @@ const getWork = (id) => {
           }
         );
 
-        
+
     } catch (err) {
       error.value = err.message;
       console.log(error.value);

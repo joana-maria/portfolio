@@ -22,7 +22,6 @@ const getWorks = () => {
         })
         .then((data2) => {
           works.value = data2.works;
-          console.log(data2.works);
         },
         function (rejectionReason) {
           // 3
