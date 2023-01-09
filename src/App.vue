@@ -55,23 +55,23 @@ export default {
 <template>
   <div id="menu" class="bold-txt" v-if="breakpoints.desktop.matches">
     <router-link to="/about">
-      <div class="menu-btn" :class="{ active: !underline }" id="about">
+      <div class="menu-btn" :class="{ activePage: !underline }" id="about">
         /ABOUT
       </div>
     </router-link>
     <router-link to="/">
-      <div class="menu-btn" :class="{ active: underline }" id="work">/WORK</div>
+      <div class="menu-btn" :class="{ activePage: underline }" id="work">/WORK</div>
     </router-link>
   </div>
 
   <div id="menu2" class="bold-txt" v-if="breakpoints.mobile.matches">
     <router-link to="/about">
-      <div class="menu-btn" :class="{ active: !underline }" id="about">
+      <div class="menu-btn" :class="{ activePage: !underline }" id="about">
         /ABOUT
       </div>
     </router-link>
     <router-link to="/">
-      <div class="menu-btn" :class="{ active: underline }" id="work">/WORK</div>
+      <div class="menu-btn" :class="{ activePage: underline }" id="work">/WORK</div>
     </router-link>
   </div>
 
@@ -94,7 +94,7 @@ export default {
   cursor: pointer;
 }
 
-.active {
+.activePage {
   text-decoration: underline;
 }
 
