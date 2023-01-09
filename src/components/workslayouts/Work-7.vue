@@ -42,6 +42,7 @@
     flex-direction: column;
     overflow-y: auto;
     gap: 10px;
+    overflow-x: hidden;
   }
   
   img {

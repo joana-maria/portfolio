@@ -1,14 +1,20 @@
 <template>
   <div class="about-txt" v-if="breakpoints.desktop.matches">
     <img src="/src/assets/me.png" alt="Joana Oliveira Designer" id="me" />
-    <p>
-      Hello!<br /><br />
-      I’m <span id="about-bold"> Joana Maria</span>, I was born in Braga,
-      Portugal. Within the last couple of years, I’ve worked in projects ranging
-      from graphic to web develepoment, and evenui/ux to creative coding.
-      <br /><br />Besides being a designer, I also know how to implement my
-      design ideas with my front-end coding skills and I also love to experiment
-      with more interactive and creative coding approaches.
+    <p id="description">
+      Hello!<br />
+      My name is <span id="about-bold"> Joana Maria</span>, and I am a
+      multidisciplinary designer with a strong background in both graphic and
+      web development, as well as UI/UX and creative coding. <br />
+      <br />Born and raised in Braga, Portugal, I have always been driven by my
+      passion for design and technology. In the past few years, I've had the
+      opportunity to work on a diverse range of projects, ranging from graphic
+      design to web development, and even UI/UX and creative coding.
+      <br /><br />In addition to my design skills, I also have proficient
+      front-end coding abilities, which allow me to bring my ideas to life in a
+      practical and efficient manner. I am constantly seeking out new ways to
+      experiment with interactive and creative coding approaches to push the
+      boundaries of traditional design.
     </p>
   </div>
 
@@ -148,22 +154,25 @@
           /EMAIL <br />
           umajoanamaria@gmail.com</span
         >
+        <p class="link bold-txt-mbl"><br /> /DOWNLOAD CURRICULUM</p>
       </div>
     </div>
 
-    <p>
-      Hello!<br /><br />
-      I’m <span id="about-bold"> Joana Maria</span>, I was born in Braga,
-      Portugal. Within the last couple of years, I’ve worked in projects ranging
-      from graphic to web develepoment, and evenui/ux to creative coding.
-      <br /><br />Besides being a designer, I also know how to implement my
-      design ideas with my front-end coding skills and I also love to experiment
-      with more interactive and creative coding approaches.
+    <p id="description-mbl">
+      Hello!<br />
+      My name is <span id="about-bold"> Joana Maria</span>, and I am a
+      multidisciplinary designer with a strong background in both graphic and
+      web development, as well as UI/UX and creative coding. <br />
+      <br />Born and raised in Braga, Portugal, I have always been driven by my
+      passion for design and technology. In the past few years, I've had the
+      opportunity to work on a diverse range of projects, ranging from graphic
+      design to web development, and even UI/UX and creative coding.
+      <br /><br />In addition to my design skills, I also have proficient
+      front-end coding abilities, which allow me to bring my ideas to life in a
+      practical and efficient manner. I am constantly seeking out new ways to
+      experiment with interactive and creative coding approaches to push the
+      boundaries of traditional design.
     </p>
-  </div>
-
-  <div id="cur-link-mbl" v-if="breakpoints.mobile.matches">
-    <p class="link bold-txt-mbl">/DOWNLOAD CURRICULUM</p>
   </div>
 </template>
 
@@ -220,7 +229,7 @@ export default {
 }
 
 .about-txt {
-  grid-area: 1/2 / span 2 / span 1;
+  grid-area: 1/1 / span 2 / span 3;
   font-family: "Cardo", serif;
   font-style: normal;
   font-weight: 400;
@@ -228,11 +237,14 @@ export default {
   line-height: 20px;
   display: flex;
   flex-direction: column;
-  margin-top: 13vh;
+  /* margin-top: 13vh; */
+  width: 55%;
+  justify-self: center;
+  align-self: center;
 }
 
 #me {
-  width: 70%;
+  width: 30%;
   margin-bottom: 35px;
 }
 #about-bold {
@@ -266,7 +278,9 @@ export default {
   grid-area: 1/4 / span 2 / span 2;
   display: flex;
   flex-direction: column;
-  margin-top: 13vh;
+  /* margin-top: 13vh; */
+  justify-self: center;
+  align-self: center;
 }
 
 .cur-1 {
@@ -292,6 +306,14 @@ export default {
   margin-top: 5px;
 }
 
+#description {
+  font-family: "Cardo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
 .sub-txt {
   font-family: "rotabold";
   font-size: 12px;
@@ -300,7 +322,7 @@ export default {
 }
 
 .about-txt-mbl {
-  grid-area: 1/1 / span 4 / span 2;
+  grid-area: 1/1 / span 6 / span 2;
   font-family: "Cardo", serif;
   font-style: normal;
   font-weight: 400;
@@ -308,8 +330,10 @@ export default {
   line-height: 20px;
   display: flex;
   flex-direction: column;
-  margin-top: 19%;
+  /* margin-top: 12%; */
   padding: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .bold-txt-mbl {
@@ -321,15 +345,16 @@ export default {
 }
 
 #me-mbl {
-  width: 47%;
+  width: 30%;
 }
 
 #me-det {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  margin-bottom: 35px;
-  justify-content: space-between;
+  margin-bottom: 12%;
+  margin-top: 12%;
+  /* justify-content: space-between; */
 }
 
 #contacts-mbl {
@@ -337,6 +362,7 @@ export default {
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
+  margin-left: 15px;
 }
 
 .bold-txt-mbl {
@@ -347,9 +373,10 @@ export default {
 }
 
 #cur-link-mbl {
-  grid-area: 6/1 / span 1 / span 2;
-  display: flex;
-  align-items: flex-end;
-  padding: 20px;
+  /* grid-area: 6/1 / span 1 / span 2; */
+  /* display: flex; */
+  /* align-items: flex-end; */
+  /* padding: 20px; */
+  /* margin-top: 12%; */
 }
 </style>

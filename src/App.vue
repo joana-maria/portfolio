@@ -1,16 +1,40 @@
 <script>
-import { RouterLink, RouterView } from "vue-router";
+import { RouterLink, RouterView, useRoute } from "vue-router";
 import useBreakpoints from "vue-next-breakpoints";
+import { ref, watch } from "vue";
 
 export default {
   setup() {
-   // Define your breakpoints with any name
+    // Define your breakpoints with any name
     const breakpoints = useBreakpoints({
       mobile: 800, // max-width: 600px
       desktop: [801], // min-width: 601px
     });
+    const underline = ref(true);
 
-    return { breakpoints };
+    const route = useRoute();
+    const routeName = ref(route.name);
+    const userData = ref();
+
+    console.log(route.name);
+    watch(
+      () => route.name,
+      async (newName) => {
+        routeName.value = newName;
+        console.log(routeName.value);
+        //console.log(newId);
+
+        if (routeName.value === "home") {
+          underline.value = true;
+        } else if (routeName.value === "about") {
+          underline.value = false;
+        } 
+      }
+    );
+
+    //document.body.className = "home";
+
+    return { breakpoints, underline };
   },
   created() {
     // Event listeners are optional but may come in handy.
@@ -31,19 +55,23 @@ export default {
 <template>
   <div id="menu" class="bold-txt" v-if="breakpoints.desktop.matches">
     <router-link to="/about">
-      <div class="menu-btn" id="about">/ABOUT</div>
+      <div class="menu-btn" :class="{ active: !underline }" id="about">
+        /ABOUT
+      </div>
     </router-link>
     <router-link to="/">
-      <div class="menu-btn" id="work">/WORK</div>
+      <div class="menu-btn" :class="{ active: underline }" id="work">/WORK</div>
     </router-link>
   </div>
 
   <div id="menu2" class="bold-txt" v-if="breakpoints.mobile.matches">
     <router-link to="/about">
-      <div class="menu-btn" id="about">/ABOUT</div>
+      <div class="menu-btn" :class="{ active: !underline }" id="about">
+        /ABOUT
+      </div>
     </router-link>
     <router-link to="/">
-      <div class="menu-btn" id="work">/WORK</div>
+      <div class="menu-btn" :class="{ active: underline }" id="work">/WORK</div>
     </router-link>
   </div>
 
@@ -66,6 +94,10 @@ export default {
   cursor: pointer;
 }
 
+.active {
+  text-decoration: underline;
+}
+
 #menu2 {
   grid-area: 1/1 / span 1 / span 2;
   display: flex;
@@ -78,6 +110,6 @@ export default {
 }
 
 .swiper-pagination-bullet-active {
-     background-color: #000 !important;
+  background-color: #000 !important;
 }
 </style>

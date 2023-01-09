@@ -37,6 +37,7 @@
     display: flex;
     flex-direction: column;
     overflow-y: auto;
+    overflow-x: hidden;
     gap: 10px;
   }
   

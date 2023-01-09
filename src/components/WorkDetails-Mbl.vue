@@ -237,6 +237,7 @@ p {
   overflow-y: auto;
   position: relative;
   z-index: 0;
+  overflow-x: hidden;
 }
 
 #plus {
