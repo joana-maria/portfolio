@@ -97,7 +97,8 @@
       <div style="margin-right: 105px">
         <span class="sub-txt">DESIGN</span>
         <div style="margin-top: 15px" class="cur-1">
-          Web development<br />
+          Web Development<br />
+          Web Design<br />
           UI/UX<br />
           Graphic Design<br />
           Editorial/Print<br />
@@ -161,7 +162,7 @@
       Hello!<br />
       My name is <span id="about-bold"> Joana Maria</span>, and I am a
       multidisciplinary designer with a strong background in both graphic and
-      web development, as well as UI/UX and creative coding. <br />
+      web design, as well as UI/UX, web development and creative coding. <br />
       <br />Born and raised in Braga, Portugal, I have always been driven by my
       passion for design and technology. In the past few years, I've had the
       opportunity to work on a diverse range of projects, ranging from graphic
