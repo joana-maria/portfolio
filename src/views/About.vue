@@ -218,7 +218,6 @@ export default {
   display: flex;
   flex-direction: column;
   margin-left: 15px;
-  cursor: pointer;
 }
 
 .year {
@@ -271,6 +270,7 @@ export default {
 #cur-link {
   grid-area: 1/4 / span 1 / span 2;
   display: flex;
+  height: 10%;
   justify-content: center;
 }
 
