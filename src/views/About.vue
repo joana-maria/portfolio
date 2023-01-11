@@ -372,11 +372,4 @@ export default {
   letter-spacing: 0.1em;
 }
 
-#cur-link-mbl {
-  /* grid-area: 6/1 / span 1 / span 2; */
-  /* display: flex; */
-  /* align-items: flex-end; */
-  /* padding: 20px; */
-  /* margin-top: 12%; */
-}
 </style>
