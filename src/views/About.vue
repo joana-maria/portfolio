@@ -5,7 +5,7 @@
       Hello!<br />
       My name is <span id="about-bold"> Joana Maria</span>, and I am a
       multidisciplinary designer with a strong background in both graphic and
-      web development, as well as UI/UX and creative coding. <br />
+      web design, as well as UI/UX, web development and creative coding. <br />
       <br />Born and raised in Braga, Portugal, I have always been driven by my
       passion for design and technology. In the past few years, I've had the
       opportunity to work on a diverse range of projects, ranging from graphic
@@ -17,7 +17,6 @@
       boundaries of traditional design.
     </p>
   </div>
-
   <div id="contacts" class="bold-txt" v-if="breakpoints.desktop.matches">
     <a
       class="link"
@@ -118,7 +117,7 @@
     </div>
   </div>
   <div id="cur-link" v-if="breakpoints.desktop.matches">
-    <p class="link bold-txt">/DOWNLOAD CURRICULUM</p>
+    <a href="/portfolio/src/assets/Joana Maria Resumé.pdf" target="_blank" class="link bold-txt">/DOWNLOAD RESUMÉ</a>
   </div>
 
   <!-- Mobile -->
@@ -154,7 +153,7 @@
           /EMAIL <br />
           umajoanamaria@gmail.com</span
         >
-        <p class="link bold-txt-mbl"><br /> /DOWNLOAD CURRICULUM</p>
+        <a href="/portfolio/src/assets/Joana Maria Resumé.pdf" target="_blank" class="link bold-txt-mbl">/DOWNLOAD RESUMÉ</a>
       </div>
     </div>
 
