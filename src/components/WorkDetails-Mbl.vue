@@ -68,7 +68,7 @@
         @click="open"
         id="plus"
         style="width: 15px; align-self: flex-end"
-        src="/src/assets/plus.svg"
+        :src=source
       />
     </div>
   </div>
@@ -130,6 +130,7 @@ export default {
     const a = ref(0);
     const closed = ref(true);
     const opened = ref(false);
+    const source = ref("/src/assets/plus.svg");
     load();
 
     function open(event) {
@@ -137,15 +138,15 @@ export default {
       opened.value = !opened.value;
       a.value++;
       if (a.value % 2 != 0) {
-        event.target.src = "/src/assets/minus.svg";
+        source.value = "/src/assets/minus.svg";
         event.target.parentElement.style.height = "100%";
       } else {
-        event.target.src = "/src/assets/plus.svg";
+        source.value = "/src/assets/plus.svg";
         event.target.parentElement.style.height = "40%";
       }
     }
 
-    return { work, error, open, closed, opened, modules: [Pagination] };
+    return { work, error, open, closed, source, opened, modules: [Pagination] };
   },
 };
 </script>
