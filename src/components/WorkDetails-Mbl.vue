@@ -65,11 +65,22 @@
       </swiper>
 
       <img
+        v-show="toOpen"
         @click="open"
         id="plus"
         style="width: 15px; align-self: flex-end"
-        :src=source
+        src="/src/assets/plus.svg"
       />
+
+      <img
+        v-show="!toOpen"
+        @click="open"
+        id="plus"
+        style="width: 15px; align-self: flex-end"
+        src="/src/assets/minus.svg"
+      />
+     
+     
     </div>
   </div>
   <div id="details">
@@ -131,6 +142,7 @@ export default {
     const closed = ref(true);
     const opened = ref(false);
     const source = ref("/src/assets/plus.svg");
+    const toOpen = ref(true)
     load();
 
     function open(event) {
@@ -138,15 +150,19 @@ export default {
       opened.value = !opened.value;
       a.value++;
       if (a.value % 2 != 0) {
-        source.value = "/src/assets/minus.svg";
+        toOpen.value = false;
+       // source.value = "/src/assets/minus.svg";
+        // event.target.src = "/src/assets/minus.svg";
         event.target.parentElement.style.height = "100%";
       } else {
-        source.value = "/src/assets/plus.svg";
+        toOpen.value = true;
+       // source.value = "/src/assets/plus.svg";
+        //event.target.src = "/src/assets/plus.svg";
         event.target.parentElement.style.height = "40%";
       }
     }
 
-    return { work, error, open, closed, source, opened, modules: [Pagination] };
+    return { work, error, open, closed, toOpen, opened, modules: [Pagination] };
   },
 };
 </script>

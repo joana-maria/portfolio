@@ -81,13 +81,13 @@ export default {
     // Event listeners are optional but may come in handy.
     // You can register them inside setup, created or mounted methods.
     this.breakpoints.mobile.on("enter", (mq) => {
-      console.log("Entered mobile breakpoint");
-      console.log("Media Query", mq);
+      // console.log("Entered mobile breakpoint");
+      // console.log("Media Query", mq);
     });
 
     this.breakpoints.mobile.on("leave", (mq) => {
-      console.log("Left mobile breakpoint");
-      console.log("Media Query", mq);
+      // console.log("Left mobile breakpoint");
+      // console.log("Media Query", mq);
     });
   },
 };
