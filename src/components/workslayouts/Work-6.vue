@@ -59,11 +59,10 @@ img :hover {
 .sbyside{
   display: flex;
   flex-direction: row;
-  gap: 10px;
-  max-width: 100%;
+  justify-content: space-between;
 }
 
 .sbyside > img{
-  width: 50%;
+  width: 49.3%;
 }
 </style>

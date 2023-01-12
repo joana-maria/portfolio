@@ -97,8 +97,8 @@
       <div style="margin-right: 105px">
         <span class="sub-txt">DESIGN</span>
         <div style="margin-top: 15px" class="cur-1">
-          Web Development<br />
           Web Design<br />
+          Web Development<br />
           UI/UX<br />
           Graphic Design<br />
           Editorial/Print<br />

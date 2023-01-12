@@ -48,14 +48,13 @@
   }
 
   .sbyside{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    max-width: 100%;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
-  .sbyside > img{
-    width: 50%;
-  }
+.sbyside > img{
+  width: 49.3%;
+}
   </style>
   

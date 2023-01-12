@@ -1,7 +1,7 @@
 <template>
   <!-- Desktop -->
   <div class="about-txt" v-if="breakpoints.desktop.matches">
-    I’m <span id="about-bold">Joana Maria</span>, 
+    <span id="about-bold">Joana Maria</span>, 
     <br>a portuguese designer <br>
     with a strong interest in print, web and creative coding.
   </div>
