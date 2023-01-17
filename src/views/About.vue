@@ -118,7 +118,7 @@
     </div>
   </div>
   <div id="cur-link" v-if="breakpoints.desktop.matches">
-    <a href="/portfolio/src/assets/Joana Maria Resumé.pdf" target="_blank" class="link bold-txt">/DOWNLOAD RESUMÉ</a>
+    <a href="/src/assets/JoanaMariaResumé.pdf" target="_blank" class="link bold-txt">/DOWNLOAD RESUMÉ</a>
   </div>
 
   <!-- Mobile -->
@@ -154,7 +154,7 @@
           /EMAIL <br />
           umajoanamaria@gmail.com</span
         >
-        <a href="/portfolio/src/assets/Joana Maria Resumé.pdf" target="_blank" class="link bold-txt-mbl">/DOWNLOAD RESUMÉ</a>
+        <a href="/src/assets/JoanaMariaResumé.pdf" target="_blank" class="link bold-txt-mbl">/DOWNLOAD RESUMÉ</a>
       </div>
     </div>
 
