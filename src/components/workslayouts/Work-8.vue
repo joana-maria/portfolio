@@ -1,10 +1,10 @@
 <template>
     <div id="work-imgs">
       <div class="img-cnt" id="img1">
-        <img src="/src/assets/work8/1.png" />
+        <img src="/src/assets/work8/1.jpg" />
       </div>
       <div class="img-cnt" id="img2">
-        <img src="/src/assets/work8/2.png" />
+        <img src="/src/assets/work8/2.jpg" />
       </div>
       <div class="img-cnt sbyside" id="img3">
         <img src="/src/assets/work8/3a.png" />

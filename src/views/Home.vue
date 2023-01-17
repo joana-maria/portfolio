@@ -13,7 +13,7 @@
   <!-- mobile -->
   <div id="within-grid" v-if="breakpoints.mobile.matches">
     <div class="about-txt-mbl" v-if="breakpoints.mobile.matches">
-      I’m <span id="about-bold-mbl">Joana Maria</span>, <br />
+      <span id="about-bold-mbl">Joana Maria</span>, <br />
       a portuguese designer <br />
       with a strong interest in print, <br />web and creative coding.
     </div>

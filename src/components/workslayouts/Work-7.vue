@@ -1,22 +1,22 @@
 <template>
     <div id="work-imgs">
       <div class="img-cnt" id="img1">
-        <img src="/src/assets/work7/1.png" />
+        <img src="/src/assets/work7/1.jpg" />
       </div>
       <div class="img-cnt sbyside" id="img2">
-        <img src="/src/assets/work7/2a.png" />
-        <img src="/src/assets/work7/2b.png" />
+        <img src="/src/assets/work7/2a.jpg" />
+        <img src="/src/assets/work7/2b.jpg" />
       </div>
       <div class="img-cnt sbyside" id="img3">
-        <img src="/src/assets/work7/3a.png" />
-        <img src="/src/assets/work7/3b.png" />
+        <img src="/src/assets/work7/3a.jpg" />
+        <img src="/src/assets/work7/3b.jpg" />
       </div>
       <div class="img-cnt" id="img4">
-        <img src="/src/assets/work7/4.png" />
+        <img src="/src/assets/work7/4.jpg" />
       </div>
       <div class="img-cnt sbyside" id="img5">
-        <img src="/src/assets/work7/5a.png" />
-        <img src="/src/assets/work7/5b.png" />
+        <img src="/src/assets/work7/5a.jpg" />
+        <img src="/src/assets/work7/5b.jpg" />
       </div>
       <div class="img-cnt" id="img6">
         <img src="/src/assets/work7/6.gif" />

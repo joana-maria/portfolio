@@ -1,20 +1,20 @@
 <template>
     <div id="work-imgs">
       <div class="img-cnt" id="img1">
-        <img src="/src/assets/work3/1a.png" />
-        <img src="/src/assets/work3/1b.png" />
+        <img src="/src/assets/work3/1a.jpg" />
+        <img src="/src/assets/work3/1b.jpg" />
       </div>
       <div class="img-cnt" id="img2">
-        <img src="/src/assets/work3/2.png" />
+        <img src="/src/assets/work3/2.jpg" />
       </div>
       <div class="img-cnt" id="img3">
-        <img src="/src/assets/work3/3.png" />
+        <img src="/src/assets/work3/3.jpg" />
       </div>
       <div class="img-cnt" id="img4">
-        <img src="/src/assets/work3/4.png" />
+        <img src="/src/assets/work3/4.jpg" />
       </div>
       <div class="img-cnt" id="img5">
-        <img src="/src/assets/work3/5.png" />
+        <img src="/src/assets/work3/5.jpg" />
       </div>
     </div>
   </template>

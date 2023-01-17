@@ -4,19 +4,19 @@
       <img src="/src/assets/work2/1.gif" />
     </div>
     <div class="img-cnt" id="img2">
-      <img src="/src/assets/work2/2.png" />
+      <img src="/src/assets/work2/2.jpg" />
     </div>
     <div class="img-cnt" id="img3">
-      <img src="/src/assets/work2/3.png" />
+      <img src="/src/assets/work2/3.jpg" />
     </div>
     <div class="img-cnt" id="img4">
-      <img src="/src/assets/work2/4.png" />
+      <img src="/src/assets/work2/4.jpg" />
     </div>
     <div class="img-cnt" id="img5">
-      <img src="/src/assets/work2/5.png" />
+      <img src="/src/assets/work2/5.jpg" />
     </div>
     <div class="img-cnt" id="img6">
-      <img src="/src/assets/work2/6.png" />
+      <img src="/src/assets/work2/6.jpg" />
     </div>
   </div>
 </template>

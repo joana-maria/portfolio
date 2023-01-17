@@ -6,14 +6,6 @@ const getWorks = () => {
   let responseClone = ref(null);
   const load = async () => {
     try {
-      //   let data = await fetch("http://localhost:3000/works");
-
-      // if (!data.ok) {
-      //   throw Error("no data available");
-      // }
-
-      //   works.value = await data.json();
-
       await fetch("https://joana-maria.github.io/data/works.json")
         .then(function (response) {
           responseClone = response.clone(); // 2

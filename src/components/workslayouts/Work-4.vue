@@ -5,14 +5,14 @@
       </div>
       <div class="img-cnt" id="img2">
         <img src="/src/assets/work4/2a.jpg" />
-        <img src="/src/assets/work4/2b.png" />
+        <img src="/src/assets/work4/2b.jpg" />
        
       </div>
       <div class="img-cnt" id="img3">
         <img src="/src/assets/work4/3.png" />
       </div>
       <div class="img-cnt" id="img4">
-        <img src="/src/assets/work4/4.png" />
+        <img src="/src/assets/work4/4.jpg" />
       </div>
       <div class="img-cnt" id="img4">
         <img src="/src/assets/work4/5.png" />

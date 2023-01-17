@@ -10,7 +10,7 @@
       <img src="/src/assets/work1/3.png" />
     </div>
     <div class="img-cnt" id="img4">
-      <img src="/src/assets/work1/4.png" />
+      <img src="/src/assets/work1/4.jpg" />
     </div>
   </div>
 </template>

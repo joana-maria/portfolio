@@ -1,18 +1,18 @@
 <template>
     <div id="work-imgs">
       <div class="img-cnt" id="img1">
-        <img src="/src/assets/work5/1.png" />
+        <img src="/src/assets/work5/1.jpg" />
       </div>
       <div class="img-cnt" id="img2">
-        <img src="/src/assets/work5/2a.png" />
-        <img src="/src/assets/work5/2b.png" />
+        <img src="/src/assets/work5/2a.jpg" />
+        <img src="/src/assets/work5/2b.jpg" />
        
       </div>
       <div class="img-cnt" id="img3">
-        <img src="/src/assets/work5/3.png" />
+        <img src="/src/assets/work5/3.jpg" />
       </div>
       <div class="img-cnt" id="img4">
-        <img src="/src/assets/work5/4.png" />
+        <img src="/src/assets/work5/4.jpg" />
       </div>
     </div>
   </template>

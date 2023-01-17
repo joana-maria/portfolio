@@ -1,25 +1,25 @@
 <template>
   <div id="work-imgs">
     <div class="img-cnt" id="img1">
-      <img src="/src/assets/work6/1.png" />
+      <img src="/src/assets/work6/1.jpg" />
     </div>
     <div class="img-cnt sbyside" id="img2">
-      <img src="/src/assets/work6/2a.png" />
-      <img src="/src/assets/work6/2b.png" />
+      <img src="/src/assets/work6/2a.jpg" />
+      <img src="/src/assets/work6/2b.jpg" />
     </div>
     <div class="img-cnt sbyside" id="img3">
-      <img src="/src/assets/work6/3a.png" />
-      <img src="/src/assets/work6/3b.png" />
+      <img src="/src/assets/work6/3a.jpg" />
+      <img src="/src/assets/work6/3b.jpg" />
     </div>
     <div class="img-cnt" id="img4">
-      <img src="/src/assets/work6/4.png" />
+      <img src="/src/assets/work6/4.jpg" />
     </div>
     <div class="img-cnt sbyside" id="img5">
-      <img src="/src/assets/work6/5a.png" />
-      <img src="/src/assets/work6/5b.png" />
+      <img src="/src/assets/work6/5a.jpg" />
+      <img src="/src/assets/work6/5b.jpg" />
     </div>
     <div class="img-cnt sbyside" id="img6">
-      <img src="/src/assets/work6/6a.png" />
+      <img src="/src/assets/work6/6a.jpg" />
       <img src="/src/assets/work6/6b.gif" />
     </div>
   </div>
