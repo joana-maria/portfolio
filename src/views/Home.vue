@@ -1,15 +1,31 @@
 <template>
   <!-- <div v-if="error">{{ error }}</div> -->
+
   <div class="about-txt" v-if="breakpoints.desktop.matches">
     <span id="about-bold">Joana Maria</span>, <br />
     a portuguese designer <br />
     with a strong interest in print, <br />web and creative coding.
   </div>
+  <div class="downl" v-if="breakpoints.desktop.matches">
+    <div>
+      <span class="bold-txt grey">DOWNLOAD PORTFOLIO BY AREA</span>
+      <a
+        href="UXUIPortfolioJoanaMaria.pdf"
+        target="_blank"
+        style="margin-left: 15px"
+        class="link bold-txt"
+        >UI/UX</a
+      >
+      <a style="margin-left: 15px" class="grey bold-txt">GRAPHIC</a>
+    </div>
+  </div>
+  
   <div id="index" v-if="works.length && breakpoints.desktop.matches">
     <WorksIndex :works="works" />
   </div>
-  <AllWorks :key="0" v-if="breakpoints.desktop.matches" />
   
+  <AllWorks :key="0" v-if="breakpoints.desktop.matches" />
+
   <!-- mobile -->
   <div id="within-grid" v-if="breakpoints.mobile.matches">
     <div class="about-txt-mbl" v-if="breakpoints.mobile.matches">
@@ -30,7 +46,20 @@
       v-show="extra"
       v-if="works.length && breakpoints.mobile.matches"
     >
-      <WorksIndexMbl :works="works" />
+      <WorksIndexMbl style="margin-bottom: 3vh" :works="works" />
+      <div class="downl">
+        <div>
+          <span class="bold-txt grey">DOWNLOAD PORTFOLIO BY AREA</span>
+          <a
+            href="UXUIPortfolioJoanaMaria.pdf"
+            target="_blank"
+            style="margin-left: 15px"
+            class="link bold-txt"
+            >UI/UX</a
+          >
+          <a style="margin-left: 15px" class="grey bold-txt">GRAPHIC</a>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -91,6 +120,7 @@ export default {
   grid-area: 2/1 / span 1 / span 2;
   display: flex;
   align-items: flex-end;
+  margin-bottom: 4vh;
 }
 .about-txt {
   grid-area: 1/2 / span 1 / span 1;
@@ -178,5 +208,32 @@ export default {
   justify-content: space-around;
   flex-direction: column;
   padding: 20px;
+}
+
+.bold-txt {
+  font-family: "rotabold";
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.link:hover {
+  font-family: "rotablack";
+  cursor: pointer;
+}
+
+.grey {
+  color: #a1a1a1;
+}
+
+.downl {
+  grid-area: 2/1 / span 1 / span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 </style>
