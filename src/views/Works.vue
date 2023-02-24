@@ -9,7 +9,7 @@
     <div>
       <span class="bold-txt grey">DOWNLOAD PORTFOLIO BY AREA</span>
       <a
-        href="UXUIPortfolioJoanaMaria.pdf"
+        href="../UXUIPortfolioJoanaMaria.pdf"
         target="_blank"
         style="margin-left: 15px"
         class="link bold-txt"
@@ -49,7 +49,7 @@
         <div>
           <span class="bold-txt grey">DOWNLOAD PORTFOLIO BY AREA</span>
           <a
-            href="UXUIPortfolioJoanaMaria.pdf"
+            href="../UXUIPortfolioJoanaMaria.pdf"
             target="_blank"
             style="margin-left: 15px"
             class="link bold-txt"
